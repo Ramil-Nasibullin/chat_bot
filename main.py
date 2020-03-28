@@ -5,7 +5,7 @@ import json
 
 
 def send_massage(message):
-    request = apiai.ApiAI('ff096334f51942f89f511677ce6c66d1').text_request()
+    request = apiai.ApiAI('enter your token from DialogFlow').text_request()
     request.lang = 'ru'
     request.session_id = 'session 1'
     request.query = message
